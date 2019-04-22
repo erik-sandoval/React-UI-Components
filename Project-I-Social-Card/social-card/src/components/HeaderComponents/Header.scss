@@ -1,14 +1,11 @@
 /* All styles for your header Components live here */
 
-
 .container {
     display    : flex;
     width      : 30%;
     align-items: flex-start;
 
     .title {
-        border: 1px solid red;
-
         display        : flex;
         // align-items : flex-end;
         width          : 55%;

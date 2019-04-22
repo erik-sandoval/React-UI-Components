@@ -1,10 +1,13 @@
 import React from 'react';
-import './Card.css';
+import './Card.scss';
+import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 
-const CardContainer = () =>{
+const CardContainer = () => {
     return (
-        <div>
-
+        <div className="card-container">
+            <CardBanner />
+            <CardContent />
         </div>
     )
 }
