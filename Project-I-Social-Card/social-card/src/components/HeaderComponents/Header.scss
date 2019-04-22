@@ -1,0 +1,40 @@
+/* All styles for your header Components live here */
+
+
+.container {
+    display    : flex;
+    width      : 30%;
+    align-items: flex-start;
+
+    .title {
+        border: 1px solid red;
+
+        display        : flex;
+        // align-items : flex-end;
+        width          : 55%;
+        justify-content: space-evenly;
+
+        h1 {
+            font-size : 14px;
+            margin-top: 0px;
+        }
+
+        h2 {
+            margin-top : 0px;
+            font-size  : 14px;
+            color      : grey;
+            font-weight: 100;
+        }
+    }
+
+    p {
+        width      : 100%;
+        line-height: 18px;
+        margin     : 0 0 1% 0px;
+    }
+
+    img {
+        height: 60px;
+        width : auto;
+    }
+}
