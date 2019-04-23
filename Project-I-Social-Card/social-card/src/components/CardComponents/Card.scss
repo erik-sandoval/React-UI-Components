@@ -4,32 +4,45 @@
     display       : flex;
     flex-direction: column;
     align-items   : flex-end;
+    padding-left  : 0.4%;
 
     img {
         width                  : 90.4%;
-        height                 : 300px;
+        height                 : 250px;
         border-top-left-radius : 5px;
         border-top-right-radius: 5px;
     }
 
-    .card-content {
-        width                     : 90%;
-        border                    : 1px solid lightgrey;
-        border-bottom-left-radius : 5px;
-        border-bottom-right-radius: 5px;
+    a {
+        display        : flex;
+        width          : 100%;
+        flex-direction : column;
+        align-items    : flex-end;
+        text-decoration: none;
 
-        h2 {
-            font-size: 14px;
-            padding  : 0 1%;
-        }
+        .card-content {
+            width                     : 90%;
+            border                    : 1px solid lightgrey;
+            border-bottom-left-radius : 5px;
+            border-bottom-right-radius: 5px;
 
-        p {
-            line-height: 18px;
-            padding    : 0 1%;
-        }
+            h2 {
+                font-size    : 14px;
+                padding      : 0 2%;
+                margin-bottom: 0;
+            }
 
-        .link {
-            color: gray;
+            p {
+                line-height: 18px;
+                padding    : 0 2%;
+                font-size  : 14px;
+                margin     : 1% 0;
+            }
+
+            .link {
+                font-size: 14px;
+                color    : gray;
+            }
         }
     }
 }
